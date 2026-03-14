@@ -1,3 +1,11 @@
+server:
+  port: 3569
+
 spring:
   application:
     name: EventManagementSystem
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: event_registration_db
